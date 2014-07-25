@@ -1,0 +1,26 @@
+git init
+git add README.md
+git commit -m "first commit"
+git remote add Test https://github.com/rational-humanist/newtest.git
+git push -u Test master
+git log
+git show bfaa
+git status
+To stage the deletion of a file, Use git rm <file>
+git config --global core.editor “notepad”
+git revert 0c22
+git fetch
+git pull Test master
+to undo that last merge, type "git reset HEAD~1 --hard"
+git merge Test/master
+To show just the last two commits, type git log -n 2
+git checkout -b Dev
+git pull Test Dev
+git checkout -b PaintBoard
+git add PaintBoard.java
+git commit -m "Added PaintBoard.java"
+git rebase -i Dev
+git merge PaintBoard
+git push Test Dev
+
+
