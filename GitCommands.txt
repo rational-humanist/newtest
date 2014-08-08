@@ -1,3 +1,4 @@
+git clone https://github.com/rational-humanist/newtest.git
 git init
 git add README.md
 git commit -m "first commit"
@@ -22,5 +23,6 @@ git commit -m "Added PaintBoard.java"
 git rebase -i Dev
 git merge PaintBoard
 git push Test Dev
+git push origin --delete ctci
 
 
